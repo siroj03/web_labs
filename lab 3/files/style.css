@@ -1,0 +1,88 @@
+body{
+    background-color: green;
+    width: 90%;
+
+    margin: 0 auto;
+    justify-content: left;
+
+}
+
+.buttons{
+    width: 90%;
+
+    justify-content: center;
+    justify-items: center;
+    margin-left: 10%;
+}
+.button{
+    margin-bottom: 1%;
+    border: 2px solid cyan;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+}
+.button:disabled{
+    opacity: 60%;
+}
+
+#input_field{
+    background: #36393e;
+    width: 60px;
+    height: 20px;
+    color: #d0d0d0;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid cyan;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+/* TABLE */
+
+#table{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.table{
+    margin: 0 auto;
+    background-color: #36393e;
+    border: 1px solid #d0d0d0;
+    border-collapse: collapse;
+}
+
+.table th{
+    background-color: #36393e;
+    border: 1px solid #d0d0d0;
+    font-size: 16px;
+    color: #bebebe;
+    font-weight: 400;  
+    padding: 0.5em 0.5em; 
+}
+
+.header_row th{
+    padding: 0.5em 4em;
+}
+
+.table th:nth-child(1){
+    padding: 0.5em 0.8em;
+    font-size: 16px;
+}
+
+/* .table th:nth-child(4){
+    padding: 0.5em 1em;
+} */
+
+.cell_input{
+    resize: none;
+    color: #bebebe;
+    text-align: center;
+    border: none;
+    width: 100%;
+    background-color: #36393e;
+    outline: none;
+    font-size: 16px;
+}
