@@ -1,0 +1,52 @@
+h2 {
+    font-size: 40px;
+    color: black;
+    margin-left: 180px;
+    font-style: italic;
+}
+form {
+    margin-left: 50px;
+    border: 3px solid black;
+    width: 500px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #003d7f;
+    padding-top: 20px;
+}
+.form-item {
+    margin-left: 20px;
+}
+button {
+    margin-left: 35px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 7px 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #b016b5;
+    color: white;
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 20px;
+}
+button:hover{
+    opacity: 100%;
+}
+label {
+    color: white;
+    font-size: 30px;
+    margin: auto;
+}
+
+input {
+    border-radius: 10px;
+    height: 30px;
+    background-color: white;
+}
+
+input[name="name"] {
+    margin-left: 60px;
+}
+input[name="time"] {
+    margin-left: 55px;
+}
